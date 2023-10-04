@@ -6,3 +6,5 @@
 ### [index.jsp : 실행/수정 완료](https://github.com/dbals4003/20221007_SERVLET/blob/main/index.jsp)
 
 ### 9월 27일 : 쇼핑몰 상품 목록 페이지 추가
+
+### 10월 4일 : 쇼핑몰 상품 상세 페이지 추가

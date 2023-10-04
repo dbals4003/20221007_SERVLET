@@ -24,9 +24,10 @@
                 Product product = listOfProducts.get(i);
         %>
             <div class="col-md-4">
-                <h3><%=product.getPname()%></h3>
-                <p><%=product.getDescription()%></p>
-                <p><%=product.getUnitPrice()%>원</p>
+                <h3><%=product.getPname()%></h3> <!-- 상품 이름 -->
+                <p><%=product.getDescription()%></p> <!-- 상품 정보 -->
+                <p><%=product.getUnitPrice()%>원</p> <!-- 상품 가격 -->
+                <p><a href="product_detail.jsp?id=<%=product.getProductId()%>" class="btn btn-secondary" role="button">상품 상세 정보 &requo;</a></p>
     </div>
         <%
             }
