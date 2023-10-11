@@ -4,6 +4,11 @@ import dto.Product;
 
 public class ProductRepository {
     private ArrayList<Product> listOfProducts = new ArrayList<Product>(); // ArrayList를 Product로 캐스팅
+    private stactic ProductRepository instance = new ProductRepository();
+    
+    public stactic ProductRepository getInstance(){
+        return instance;
+    }
     
     public ProductRepository() {
         Product phone = new Product("P1234", "emTek Geforce RTX 4060", 400000);
@@ -50,5 +55,9 @@ public class ProductRepository {
             }
         }
         return productById;
+    }
+    
+    public void addProduct(Product product) {
+        listOfProducts.add(product);
     }
 }

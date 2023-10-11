@@ -23,8 +23,8 @@ public class Product implements Serializable { // 인터페이스 선언
         this.unitPrice = unitPrice;
     }
     
-    public String getProductID(){
-        return productID;
+    public String getProductId(){
+        return productId;
     }
     
     public String getPname(){
@@ -32,11 +32,11 @@ public class Product implements Serializable { // 인터페이스 선언
     }
     
     public void setPname(String pname){
-        this.panme = pname;
+        this.pname = pname;
     }
     
-    public void setProductID(String productID){
-        this.productID = productID;
+    public void setProductId(String productId){
+        this.productId = productId;
     }
     
     public Integer getUnitPrice(){
@@ -79,7 +79,7 @@ public class Product implements Serializable { // 인터페이스 선언
         this.unitsInStock = unitsInStock;
     }
     
-    public Stirng getCondition(){
+    public String getCondition(){
         return condition;
     }
     

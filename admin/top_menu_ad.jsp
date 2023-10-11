@@ -17,10 +17,11 @@
     <div class="container">
         <div class="navbar-header">
             <a class="navbar-brand" href="./index.jsp" style="color: black;">메뉴바 : 홈페이지</a>
-            <a class="navbar-brand" href="./index.jsp" style="color: black;">로그인</a>
-            <a class="navbar-brand" href="./index.jsp" style="color: black;">회원가입</a>
-            <a class="navbar-brand" href="./index.jsp" style="color: black;">고객센터</a>
-            <a class="navbar-brand" href="admin/index_ad.jsp" style="color: black;">관리자모드</a>
+            <a class="navbar-brand" href="./index.jsp" style="color: black;">회원 보기/추가/수정/삭제</a>
+            <a class="navbar-brand" href="index_ad.jsp" style="color: black;">상품보기</a>
+            <a class="navbar-brand" href="product_add.jsp" style="color: black;">등록</a>
+            <a class="navbar-brand" href="index_ad.jsp" style="color: black;">수정/삭제</a>
+            <a class="navbar-brand" href="../index.jsp" style="color: black;">일반모드</a>
         </div>
     </div>
 </nav>
