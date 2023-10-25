@@ -4,9 +4,9 @@ import dto.Product;
 
 public class ProductRepository {
     private ArrayList<Product> listOfProducts = new ArrayList<Product>(); // ArrayList를 Product로 캐스팅
-    private stactic ProductRepository instance = new ProductRepository();
+    private static ProductRepository instance = new ProductRepository();
     
-    public stactic ProductRepository getInstance(){
+    public static ProductRepository getInstance(){
         return instance;
     }
     
@@ -17,6 +17,7 @@ public class ProductRepository {
         phone.setManufacturer("NVIDIA");
         phone.setUnitsInStock(1000);
         phone.setCondition("New");
+        phone.setFilename("P1234.png");
         
         Product notebook = new Product("P1235", "emTek Geforce RTX 3060", 300000);
         notebook.setDescription("GDDR6(DDR6), 12GB, 245mm");
@@ -24,6 +25,7 @@ public class ProductRepository {
         notebook.setManufacturer("NVIDIA");
         notebook.setUnitsInStock(1000);
         notebook.setCondition("Refurbished");
+        notebook.setFilename("P1235.png");
         
         Product tablet = new Product("P1236", "MSI Geforce GTX 1650", 100000);
         notebook.setDescription("GDDR6(DDR6), 4GB, 248mm");
@@ -31,6 +33,7 @@ public class ProductRepository {
         notebook.setManufacturer("NVIDIA");
         notebook.setUnitsInStock(1000);
         notebook.setCondition("Old");
+        note.setFilename("P1236.png");
         
         // 위와 같이 상품 초기화 하고 아래에 상품을 추가
         
