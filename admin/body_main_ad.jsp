@@ -1,4 +1,5 @@
 <%@ page contentType="text/html; charset=utf-8"%>
+<%@ page import = "java.util.ArrayList"%>
 <%@ page import = "dto.Product"%> <!-- 패키지 연동 -->
 <%@ page import="dao.ProductRepository" %>
 

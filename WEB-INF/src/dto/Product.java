@@ -93,7 +93,7 @@ public class Product implements Serializable { // 인터페이스 선언
         this.filename = filename;
     }
     
-    public String getfilename() { // 파일 이름 리턴
+    public String getFilename() { // 파일 이름 리턴
         return filename;
     }
     
