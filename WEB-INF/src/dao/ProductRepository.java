@@ -28,12 +28,12 @@ public class ProductRepository {
         notebook.setFilename("P1235.png");
         
         Product tablet = new Product("P1236", "MSI Geforce GTX 1650", 100000);
-        notebook.setDescription("GDDR6(DDR6), 4GB, 248mm");
-        notebook.setCategory("VGA");
-        notebook.setManufacturer("NVIDIA");
-        notebook.setUnitsInStock(1000);
-        notebook.setCondition("Old");
-        note.setFilename("P1236.png");
+        tablet.setDescription("GDDR6(DDR6), 4GB, 248mm");
+        tablet.setCategory("VGA");
+        tablet.setManufacturer("NVIDIA");
+        tablet.setUnitsInStock(1000);
+        tablet.setCondition("Old");
+        tablet.setFilename("P1236.png");
         
         // 위와 같이 상품 초기화 하고 아래에 상품을 추가
         
