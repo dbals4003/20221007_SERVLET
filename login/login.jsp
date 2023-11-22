@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="container" align="center">
-            <div class="clo-md-4 clo-md-offset-4">
+            <div class="col-md-4 col-md-offset-4">
                 <h3 class="form-signin-heading">Please sign in</h3>
                 <%
                     String error = request.getParameter("error");
