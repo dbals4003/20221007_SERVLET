@@ -35,7 +35,7 @@ public class ProductRepository {
         tablet.setCondition("Refurbished");
         tablet.setFilename("G4060.jpg");
         
-        Product VGA1 = new Product("G3080", "MSI Geforce RTX 3080Ti", 1000000);
+        Product VGA1 = new Product("G3080Ti", "MSI Geforce RTX 3080Ti", 1000000);
         VGA1.setDescription("GDDR6X(DDR6X), 12GB, 317.8mm");
         VGA1.setCategory("VGA");
         VGA1.setManufacturer("NVIDIA");
