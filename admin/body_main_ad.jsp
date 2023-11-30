@@ -54,7 +54,7 @@
     <div class="card bg-dark text-white">
         <img src="image\top.jpg" class="card-img" alt="...">
         <div class="card-img-overlay">
-            <h5 class="card-title">그리팩 카드 이벤트</h5>
+            <h5 class="card-title">그래픽 카드 이벤트</h5>
             <p class="card-text">출처: 다나와</p>
         </div>
         </div>
