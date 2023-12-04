@@ -5,7 +5,11 @@
 
 ### [index.jsp : 실행/수정 완료](https://github.com/dbals4003/20221007_SERVLET/blob/main/index.jsp)
 
+### 9월 20일 : forward 액션 태그 확인 완료
+#### [연습문제 - 날짜 출력 소스 분리](https://github.com/dbals4003/20221007_SERVLET/tree/main/WEB-INF/src/example)
+
 ### 9월 27일 : 쇼핑몰 상품 목록 페이지 추가
+#### [연습문제 - 상품 6개 추가, 이미지 출력](https://github.com/dbals4003/20221007_SERVLET/blob/main/WEB-INF/src/dao/ProductRepository.java)
 
 ### 10월 4일 : 쇼핑몰 상품 상세 페이지 추가
 
