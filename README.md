@@ -3,7 +3,7 @@
 
 ### 9월 13일 : 쇼핑몰 메인 페이지
 
-### [index.jsp : 실행/수정 완료](https://github.com/dbals4003/20221007_SERVLET/blob/main/index.jsp)
+#### [index.jsp : 실행/수정 완료](https://github.com/dbals4003/20221007_SERVLET/blob/main/index.jsp)
 
 ### 9월 20일 : forward 액션 태그 확인 완료
 #### [연습문제 - 날짜 출력 소스 분리](https://github.com/dbals4003/20221007_SERVLET/tree/main/WEB-INF/src/example)
