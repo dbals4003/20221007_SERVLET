@@ -1,7 +1,7 @@
 <%@ page contentType = "text/html;charset=utf-8" %>
-<%@ page import="java.utill.ArrayList"%>
+<%@ page import="java.util.ArrayList"%>
 <%@ page import="dto.Product"%>
-<%@ page import="dao.ProductRepositoty"%>
+<%@ page import="dao.ProductRepository"%>
 
 <%
         String id = request.getParameter("id");
@@ -10,15 +10,15 @@
             return;
 }
 
-        ProductRepositoty dao = ProductRepositoty.getInstance();
+        ProductRepository dao = ProductRepository.getInstance();
 
         Product product = dao.getProductById(id);
         if (product == null){
-            reponse.sendRedirect("../exception/product_not_found.jsp");
+            response.sendRedirect("../exception/product_not_found.jsp");
         }
 
-        ArrayList<Product> goodsList = dao. getAllProducts();
-        product goods = new Product();
+        ArrayList<Product> goodsList = dao.getAllProducts();
+        Product goods = new Product();
         for (int i=0; i<goodsList.size(); i++){
             goods = goodsList.get(i);
             if(goods.getProductId().equals(id)){
