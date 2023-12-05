@@ -103,7 +103,7 @@
 		
 			<a href="order_info.jsp?cartId=<%=shipping_cartId%>"class="btn btn-secondary" role="button"> 이전 </a>
 			<a href="order_end.jsp"  class="btn btn-success" role="button"> 주문 완료 </a>
-            <a href="dorer_cancelled.jsp" class="btn btn-secondary" role="button"> 취소 </a>
+            <a href="order_cancelled.jsp" class="btn btn-secondary" role="button"> 취소 </a>
         </div>
     </div>
     </body>
