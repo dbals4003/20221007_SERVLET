@@ -18,8 +18,7 @@
         <div class="navbar-header">
             <a class="navbar-brand" href="./index.jsp" style="color: black;">메인 홈페이지</a>
             <a class="navbar-brand" href="./index.jsp" style="color: black;">로그인</a>
-            <a class="navbar-brand" href="./index.jsp" style="color: black;">회원가입</a>
-            <a class="navbar-brand" href="./index.jsp" style="color: black;">고객센터</a>
+            <a class="navbar-brand" href="BoardListAction.do?pageNum=1" style="color: black;">게시판(고객센터)</a>
             <a class="navbar-brand" href="admin/index_ad.jsp" style="color: black;">관리자모드</a>
         </div>
     </div>
